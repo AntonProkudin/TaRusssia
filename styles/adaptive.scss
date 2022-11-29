@@ -1,0 +1,687 @@
+@media screen and (max-width: 1900px) {
+    .firstSlide{
+        .header{
+            padding-left: 110px;
+            padding-right: 110px;
+        .logoBlock{
+            margin-right: 500px;
+            .logo{
+                margin-right: 7px;
+            }
+            .textLogo{
+                font-size: 36px;
+            }
+        }
+    }
+    .menu{
+        .menuBlock{
+            li{
+                a{
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+    }
+  }
+  @media screen and (max-width: 1600px) {
+    .firstSlide{
+        .header{
+            padding-left: 110px;
+            padding-right: 100px;
+        .logoBlock{
+            margin-right: 450px;
+            .logo{
+                margin-right: 7px;
+            }
+            .textLogo{
+                font-size: 22px;
+            }
+        }
+    }
+    .menu{
+        .menuBlock{
+            li{
+                a{
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+    }
+    .lang{
+        margin-top: 50px;
+        margin-left: 100px;
+        gap: 17px;
+    
+        p{
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 129.52%;
+            text-align: center;
+            letter-spacing: 0.025em;
+            text-transform: uppercase;
+            color: rgba(0, 0, 0, 0.5);
+    
+            &.active{
+                color: #000000;
+            }
+        } 
+    }
+    .fiveSlide{
+        display: flex;
+        .nameCat{
+            margin-bottom: 50px;
+        }
+        .map{
+            margin: 0px;
+            padding: 0px;
+    
+            iframe{
+                margin-left: 0px;
+                margin: 0px;
+                padding: 0px;
+                border: 0px;
+                width: 800px;
+                height: 746px;
+            }
+        }
+    }
+    
+}
+
+@media screen and (max-width: 1280px) {
+    .firstSlide{
+        .header{
+            padding-left: 80px;
+            padding-right: 100px;
+        .logoBlock{
+            margin-right: 300px;
+            .logo{
+                margin-right: 7px;
+            }
+            .textLogo{
+                font-size: 18px;
+            }
+        }
+    }
+    .menu{
+        .menuBlock{
+            li{
+                a{
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+    }
+    .threeSlide{
+        .delivery{
+            display: block;
+            text-align: center;
+            margin-bottom: 220px;
+            text-align: start;
+            display: flex;
+            justify-content:start;
+            align-items: flex-start;
+                .mainHowItem{
+                    margin-left: 50px;
+                    margin-right: 80px;
+                    text-align: start;
+                    p{
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 22px;
+                    line-height: 129.52%;
+                    text-align: center;
+                    letter-spacing: 0.025em;
+                    text-transform: uppercase;
+                    color: #219653;
+                    margin-bottom: 100px;
+                    }
+                }
+                .descHowItem{
+                    p{
+                    font-weight: 400;
+                    font-size: 15px;
+                    margin-top: 50px;
+                    }
+                }
+    
+        }
+    }
+    .fiveSlide{
+        display: block;
+        .nameCat{
+            margin-bottom: 50px;
+        }
+        .map{
+            margin: 0px;
+            padding: 0px;
+    
+            iframe{
+                margin-left: 0px;
+                margin: 0px;
+                padding: 0px;
+                border: 0px;
+                width: 800px;
+                height: 746px;
+            }
+        }
+    }
+    
+
+}
+@media screen and (max-width: 1024px) {
+    .firstSlide{
+        .header{
+            padding-left: 80px;
+            padding-right: 50px;
+        .logoBlock{
+            margin-right: 50px;
+            .logo{
+                margin-right: 7px;
+            }
+            .textLogo{
+                font-size: 18px;
+            }
+        }
+    }
+    .menu{
+        .menuBlock{
+            li{
+                a{
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+    }
+    .infoSlide{
+        display: flex;
+    
+        .infoText{
+            margin-top: 80px;
+            margin-right: 100px;
+            margin-left: 100px;
+            .nameCompany{
+                font-size: 20px;
+            }
+            .descInfo{
+                font-size: 16px;
+            }
+        }
+        .infoImg{
+            display: flex;
+    
+                img.factryImg{
+                    height: 300px;
+                    position: absolute;
+                    z-index: 10;
+                }
+                img.unionImg{
+                    height: 400px;
+                    position: absolute;
+                    z-index: 10;
+                    position: relative;
+                    z-index: 0;
+                    margin-right: 120px;
+                }
+        }
+    }
+    .nameCat{
+        font-size: 20px;
+        margin-bottom: 20;
+    }
+    .lang{
+        margin-top: 50px;
+        margin-left: 100px;
+        gap: 17px;
+    
+        p{
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 129.52%;
+            text-align: center;
+            letter-spacing: 0.025em;
+            text-transform: uppercase;
+            color: rgba(0, 0, 0, 0.5);
+    
+            &.active{
+                color: #000000;
+            }
+        } 
+    }
+    .swiper{
+        width: 800px;
+    .card-content{
+        margin-right: 50;
+        width: 250px;
+        img{
+            width: 250px;
+        }
+    }
+    }
+
+}
+@media screen and (max-width: 800px) {
+    .firstSlide{
+        .header{
+            display: block;
+            padding-left: 80px;
+            padding-right: 40px;
+        .logoBlock{
+            margin-right: 50px;
+            .logo{
+                margin-right: 7px;
+                width: 40px;
+                height: 35px;
+            }
+            .textLogo{
+                font-size: 16px;
+            }
+        }
+    }
+    .menu{
+        .menuBlock{
+            li{
+                a{
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+    }
+    .infoSlide{
+        display: block;
+    
+        .infoText{
+            margin-top: 80px;
+            margin-right: 100px;
+            text-align: center;
+            .nameCompany{
+                font-size: 20px;
+            }
+            .descInfo{
+                font-size: 16px;
+            }
+        }
+        .infoImg{
+            display: flex;
+            margin-left: 180px;
+            margin-top: 50px;
+    
+                img.factryImg{
+                    height: 300px;
+                    position: absolute;
+                    z-index: 10;
+                }
+                img.unionImg{
+                    height: 400px;
+                    position: absolute;
+                    z-index: 10;
+                    position: relative;
+                    z-index: 0;
+                    margin-right: 120px;
+                }
+        }
+    }
+    .lang{
+        margin-top: 50px;
+        margin-left: 70px;
+        gap: 17px;
+    
+        p{
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 129.52%;
+            text-align: center;
+            letter-spacing: 0.025em;
+            text-transform: uppercase;
+            color: rgba(0, 0, 0, 0.5);
+    
+            &.active{
+                color: #000000;
+            }
+        } 
+    }
+    .nameCat{
+        font-size: 24px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .firstSlide{
+        .header{
+            display: block;
+            padding-left: 50px;
+            padding-right: 40px;
+        .logoBlock{
+            margin-right: 50px;
+            .logo{
+                margin-right: 7px;
+                width: 40px;
+                height: 35px;
+            }
+            .textLogo{
+                font-size: 16px;
+            }
+        }
+    }
+    .menu{
+        .menuBlock{
+            li{
+                a{
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+    }
+}
+@media screen and (max-width: 600px) {
+    
+}
+@media screen and (max-width: 480px) {
+
+    body{
+        margin: 0px;
+        padding: 0px;
+    }
+    .firstSlide{
+        .header{
+            padding-left: 100px;
+            padding-right: 100px;
+            margin-right: 0px;
+        .logoBlock{ 
+            margin-left: -177px;
+            .logo{
+                margin-right: 7px;
+            }
+            .textLogo{
+                font-size:16px;
+            }
+        }
+    }
+    .menu{
+        margin-right: -17px;
+        .menuBlock{
+            margin-left: 180px;
+            li{
+                a{
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+    }
+    .threeSlide{
+        .delivery{
+            display: block;
+            text-align: center;
+            margin-bottom: 74px;
+            text-align: start;
+            display: flex;
+            justify-content:start;
+            align-items: flex-start;
+            margin-right: 0px;
+                .mainHowItem{
+                    margin-top: 70px;
+                    margin-left: 50px;
+                    margin-right: 80px;
+                    text-align: start;
+                    p{
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 12px;
+                    line-height: 129.52%;
+                    text-align: center;
+                    letter-spacing: 0.025em; 
+                    text-transform: uppercase;
+                    color: #219653;
+                    margin-bottom: 100px;
+                    }
+                }
+                .descHowItem{
+                    p{
+                    font-weight: 400;
+                    font-size: 12px;
+                    margin-top: 50px;
+                    margin-right: 82px;
+                    margin-block-end: auto;
+                    }
+                }
+    
+        }
+    }
+    .fiveSlide{
+        display: block;
+        .nameCat{
+            margin-bottom: 50px;
+        }
+        .map{
+            margin: 0px;
+            padding: 0px;
+    
+            iframe{
+                width: 400px;
+                height: 335px;
+            }
+        }
+        .contact-info{
+            .main-items{
+                font-size: 16px;
+                line-height: 129.52%;
+                letter-spacing: 0.025em;
+                text-transform: uppercase;
+                color: #219653;
+                margin-left: 20px;
+                margin-right: 60px;
+                margin-top: 20px;
+            }
+            .desc-items{
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 129.52%;
+                letter-spacing: 0.025em;
+                text-transform: uppercase;
+                color: #000000;
+                margin-top: 27px;
+            }
+    
+            .adresCont{
+                display: flex;
+            }
+            .emailCont{
+                display: flex;
+                .desc-items{margin-left: 19px;}
+            }
+            .telCont{
+                display: flex;
+                .desc-items{margin-left: -32px;}
+            }
+        }
+    }
+    .fourSlide{
+        .nameCat{
+            margin-bottom: 23px;
+        }
+        form{
+            display: block;
+            width: 400px;
+            height: 704px;
+            background-color: rgb(255, 255, 255);
+            background: #FFFFFF;
+            box-shadow: 0px 5px 43px -12px rgba(0, 0, 0, 0.25);
+            border-radius: 25px;
+            margin-left: auto;
+            margin-right: auto;
+            padding-top: 87px;
+            margin-bottom: 50px;
+    
+            input{
+                margin-bottom: 58px;
+                width: 219px;
+                height: 21px;
+                border: 3px solid #6FCF97;
+                border-radius: 20px;
+                color: #000000;
+                padding: 10px;
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 129.52%;
+                text-align: start;
+                letter-spacing: 0.025em;
+                text-transform: uppercase;
+                margin-left: 80px;
+                color: #020202;
+    
+                &::placeholder{
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 10px;
+                    line-height: 129.52%;
+                    text-align: start;
+                    letter-spacing: 0.025em;
+                    text-transform: uppercase;
+                    color: #535353;
+                }
+            }
+            button{
+                    background: #6FCF97;
+                    border: 1px solid #6FCF97;
+                    border-radius: 15px;
+                    width: 297px;
+                    height: 64px;
+                    border: 0px;
+                    text-align: center;
+                    margin-left: 57px;
+    
+                    p{         
+                        font-family: 'Montserrat';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 129.52%;
+                        text-align: center;
+                        letter-spacing: 0.025em;
+                        text-transform: uppercase;
+                        color: #0B0A0A;
+                    }
+            }
+        }
+    }
+    .swiper{
+        width: 400px;
+
+    .card-content{
+        margin-left: 70px;
+        width: 200px;
+        img{
+            width: 200px;
+        }
+    }
+    }
+    .infoSlide{
+        display: block;
+        margin-top: 0px;
+    
+        .infoText{
+            .nameCompany{
+                font-size: 24px;
+                margin-left: -3px;
+            }
+            .descInfo{
+                font-size: 18px;
+            }
+            img{
+                margin-left: -85px;
+            }
+        }
+        .infoImg{
+            display: flex;
+                margin-left: -89px;
+                img.factryImg{
+                    position: absolute;
+                    z-index: 10;
+                }
+                img.unionImg{
+                    position: relative;
+                    z-index: 0;
+                    margin-right: 120px;
+                    width: 325px;
+                    opacity: 0;
+                }
+        }
+    }
+    .swiper-button-next{
+        opacity: 0;
+    }
+    .swiper-button-prev{
+        opacity: 0;
+    }
+    .swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled{
+        opacity: 0;
+    }
+    .nameCat{
+        margin-bottom: 25px;
+    }
+    .lang{
+        position: relative;
+        z-index: 10;
+        margin-top: -136px;
+        right: 201px;
+
+        p{
+            font-size: 16px;
+        }
+
+    }
+    .whyMe{
+
+        .nameCat{
+            margin-bottom: -13px;
+        }
+        .block{
+            display: block;
+        }
+        .indoObrImg{
+            margin-left: 74px;
+            margin-bottom: 50px;
+            img{
+                width: 250px;
+            }
+        }
+        .indoObr{
+            margin-left: 0px;
+        }
+        margin-bottom: 110px;
+        .why{
+            margin-bottom: 30px;
+            .main{
+            font-size: 16px;
+            }
+            .desc{
+            font-size: 10px;
+            }
+    }
+    }
+}
+@media screen and (max-width: 320px) {
+    
+}
+
+
+

@@ -1,0 +1,411 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap&subset=cyrillic");
+body {
+  top: 0 !important;
+}
+
+.skiptranslate {
+  display: none;
+  height: 0;
+}
+
+.language__img {
+  cursor: pointer;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+body {
+  display: block;
+}
+
+.nameCat {
+  margin-top: 70px;
+  margin-bottom: 150px;
+  text-align: center;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 129.52%;
+  letter-spacing: 0.025em;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.header {
+  display: flex;
+  padding-left: 110px;
+  padding-right: 110px;
+  padding-top: 15px;
+  align-items: center;
+}
+.header .logoBlock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 420px;
+}
+.header .logoBlock .logo {
+  width: 69px;
+  height: 50px;
+  margin-right: 7px;
+}
+.header .logoBlock .textLogo {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 44px;
+  color: #000000;
+}
+.header .menu .menuBlock {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 37px;
+}
+.header .menu .menuBlock li {
+  list-style: none;
+}
+.header .menu .menuBlock li a {
+  color: #219653;
+  text-decoration: none;
+  letter-spacing: 0.025em;
+  text-transform: uppercase;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 129.52%;
+}
+
+.infoSlide {
+  display: flex;
+  margin-top: 110px;
+  justify-content: center;
+}
+.infoSlide .infoText {
+  margin-top: 80px;
+  margin-right: 100px;
+  margin-left: 50px;
+}
+.infoSlide .infoText .nameCompany {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 129.52%;
+  letter-spacing: 0.025em;
+  text-transform: uppercase;
+  color: #27AE60;
+}
+.infoSlide .infoText .descInfo {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 129.52%;
+  letter-spacing: 0.025em;
+  text-transform: uppercase;
+  color: #888888;
+}
+.infoSlide .infoText img {
+  width: 378px;
+  height: 200px;
+  margin-top: 5px;
+}
+.infoSlide .infoImg {
+  display: flex;
+}
+.infoSlide .infoImg img.factryImg {
+  width: 600px;
+  height: 600px;
+  position: absolute;
+  z-index: 10;
+}
+.infoSlide .infoImg img.unionImg {
+  position: relative;
+  z-index: 0;
+  width: 600px;
+  height: 600px;
+}
+
+.lang {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-left: 17px;
+  gap: 17px;
+}
+.lang button.local {
+  background-color: #FFFFFF;
+  border: 0px solid #fff;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 129.52%;
+  letter-spacing: 0.025em;
+  text-transform: uppercase;
+  color: #757575;
+}
+
+.secondSlide .downPrice {
+  text-align: center;
+  margin-top: 100px;
+}
+.secondSlide .downPrice .buttonDown {
+  width: 270px;
+  height: 111px;
+  background: #6FCF97;
+  border-radius: 15px;
+  border: 0px;
+}
+.secondSlide .downPrice .buttonDown p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 129.52%;
+  /* or 21px */
+  text-align: center;
+  letter-spacing: 0.025em;
+  text-transform: uppercase;
+  color: #252525;
+}
+
+.threeSlide .delivery {
+  text-align: center;
+  margin-bottom: 120px;
+  text-align: start;
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
+}
+.threeSlide .delivery .mainHowItem {
+  margin-left: 260px;
+  margin-right: 120px;
+  text-align: start;
+}
+.threeSlide .delivery .mainHowItem p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 129.52%;
+  text-align: center;
+  letter-spacing: 0.025em;
+  text-transform: uppercase;
+  color: #219653;
+  margin-bottom: 100px;
+}
+.threeSlide .delivery .descHowItem p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 129.52%;
+  /* or 41px */
+  margin-bottom: 107px;
+  letter-spacing: 0.025em;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.75);
+}
+
+.fourSlide .nameCat {
+  margin-bottom: 100px;
+}
+.fourSlide form {
+  display: block;
+  width: 760px;
+  height: 960px;
+  background-color: rgb(255, 255, 255);
+  background: #FFFFFF;
+  box-shadow: 0px 5px 43px -12px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  margin-bottom: 50px;
+}
+.fourSlide form input {
+  margin-bottom: 58px;
+  width: 519px;
+  height: 58px;
+  border: 3px solid #6FCF97;
+  border-radius: 20px;
+  color: #000000;
+  padding: 10px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 129.52%;
+  text-align: start;
+  letter-spacing: 0.025em;
+  text-transform: uppercase;
+  margin-left: 104px;
+  color: #020202;
+}
+.fourSlide form input::-moz-placeholder {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 129.52%;
+  text-align: start;
+  letter-spacing: 0.025em;
+  text-transform: uppercase;
+  color: #535353;
+}
+.fourSlide form input:-ms-input-placeholder {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 129.52%;
+  text-align: start;
+  letter-spacing: 0.025em;
+  text-transform: uppercase;
+  color: #535353;
+}
+.fourSlide form input::placeholder {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 129.52%;
+  text-align: start;
+  letter-spacing: 0.025em;
+  text-transform: uppercase;
+  color: #535353;
+}
+.fourSlide form button {
+  background: #6FCF97;
+  border: 1px solid #6FCF97;
+  border-radius: 15px;
+  width: 356px;
+  height: 90px;
+  border: 0px;
+  text-align: center;
+  margin-left: 197px;
+}
+.fourSlide form button p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 129.52%;
+  text-align: center;
+  letter-spacing: 0.025em;
+  text-transform: uppercase;
+  color: #0B0A0A;
+}
+
+.fiveSlide {
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+}
+.fiveSlide .nameCat {
+  margin-bottom: 50px;
+}
+.fiveSlide .map {
+  margin: 0px;
+  padding: 0px;
+}
+.fiveSlide .map iframe {
+  margin-left: 0px;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  width: 996px;
+  height: 746px;
+}
+.fiveSlide .contact-info .main-items {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 129.52%;
+  letter-spacing: 0.025em;
+  text-transform: uppercase;
+  color: #219653;
+  margin-left: 135px;
+  margin-right: 128px;
+}
+.fiveSlide .contact-info .desc-items {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 129.52%;
+  letter-spacing: 0.025em;
+  text-transform: uppercase;
+  color: #000000;
+  margin-top: 27px;
+}
+.fiveSlide .contact-info .adresCont {
+  display: flex;
+}
+.fiveSlide .contact-info .emailCont {
+  display: flex;
+}
+.fiveSlide .contact-info .emailCont .desc-items {
+  margin-left: 19px;
+}
+.fiveSlide .contact-info .telCont {
+  display: flex;
+}
+.fiveSlide .contact-info .telCont .desc-items {
+  margin-left: -32px;
+}
+
+.whyMe {
+  margin-bottom: 150px;
+}
+.whyMe .block {
+  display: flex;
+}
+.whyMe .nameCat {
+  margin-bottom: 60px;
+}
+.whyMe .indoObrImg {
+  margin-left: 139px;
+}
+.whyMe .indoObrImg img {
+  width: 650px;
+}
+.whyMe .indoObr {
+  margin-left: 100px;
+}
+.whyMe .why {
+  text-align: center;
+  margin-bottom: 100px;
+}
+.whyMe .why .main {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 129.52%;
+  text-align: center;
+  letter-spacing: 0.025em;
+  text-transform: uppercase;
+  color: #219653;
+}
+.whyMe .why .desc {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 129.52%;
+  text-align: center;
+  letter-spacing: 0.025em;
+  text-transform: uppercase;
+  color: #000000;
+}/*# sourceMappingURL=style.css.map */

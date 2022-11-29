@@ -1,0 +1,609 @@
+@media screen and (max-width: 1900px) {
+  .firstSlide .header {
+    padding-left: 110px;
+    padding-right: 110px;
+  }
+  .firstSlide .header .logoBlock {
+    margin-right: 500px;
+  }
+  .firstSlide .header .logoBlock .logo {
+    margin-right: 7px;
+  }
+  .firstSlide .header .logoBlock .textLogo {
+    font-size: 36px;
+  }
+  .firstSlide .menu .menuBlock li a {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 1600px) {
+  .firstSlide .header {
+    padding-left: 110px;
+    padding-right: 100px;
+  }
+  .firstSlide .header .logoBlock {
+    margin-right: 450px;
+  }
+  .firstSlide .header .logoBlock .logo {
+    margin-right: 7px;
+  }
+  .firstSlide .header .logoBlock .textLogo {
+    font-size: 22px;
+  }
+  .firstSlide .menu .menuBlock li a {
+    font-size: 16px;
+  }
+  .lang {
+    margin-top: 50px;
+    margin-left: 100px;
+    gap: 17px;
+  }
+  .lang p {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 129.52%;
+    text-align: center;
+    letter-spacing: 0.025em;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  .lang p.active {
+    color: #000000;
+  }
+  .fiveSlide {
+    display: flex;
+  }
+  .fiveSlide .nameCat {
+    margin-bottom: 50px;
+  }
+  .fiveSlide .map {
+    margin: 0px;
+    padding: 0px;
+  }
+  .fiveSlide .map iframe {
+    margin-left: 0px;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    width: 800px;
+    height: 746px;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .firstSlide .header {
+    padding-left: 80px;
+    padding-right: 100px;
+  }
+  .firstSlide .header .logoBlock {
+    margin-right: 300px;
+  }
+  .firstSlide .header .logoBlock .logo {
+    margin-right: 7px;
+  }
+  .firstSlide .header .logoBlock .textLogo {
+    font-size: 18px;
+  }
+  .firstSlide .menu .menuBlock li a {
+    font-size: 14px;
+  }
+  .threeSlide .delivery {
+    display: block;
+    text-align: center;
+    margin-bottom: 220px;
+    text-align: start;
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+  }
+  .threeSlide .delivery .mainHowItem {
+    margin-left: 50px;
+    margin-right: 80px;
+    text-align: start;
+  }
+  .threeSlide .delivery .mainHowItem p {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 129.52%;
+    text-align: center;
+    letter-spacing: 0.025em;
+    text-transform: uppercase;
+    color: #219653;
+    margin-bottom: 100px;
+  }
+  .threeSlide .delivery .descHowItem p {
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 50px;
+  }
+  .fiveSlide {
+    display: block;
+  }
+  .fiveSlide .nameCat {
+    margin-bottom: 50px;
+  }
+  .fiveSlide .map {
+    margin: 0px;
+    padding: 0px;
+  }
+  .fiveSlide .map iframe {
+    margin-left: 0px;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    width: 800px;
+    height: 746px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .firstSlide .header {
+    padding-left: 80px;
+    padding-right: 50px;
+  }
+  .firstSlide .header .logoBlock {
+    margin-right: 50px;
+  }
+  .firstSlide .header .logoBlock .logo {
+    margin-right: 7px;
+  }
+  .firstSlide .header .logoBlock .textLogo {
+    font-size: 18px;
+  }
+  .firstSlide .menu .menuBlock li a {
+    font-size: 14px;
+  }
+  .infoSlide {
+    display: flex;
+  }
+  .infoSlide .infoText {
+    margin-top: 80px;
+    margin-right: 100px;
+    margin-left: 100px;
+  }
+  .infoSlide .infoText .nameCompany {
+    font-size: 20px;
+  }
+  .infoSlide .infoText .descInfo {
+    font-size: 16px;
+  }
+  .infoSlide .infoImg {
+    display: flex;
+  }
+  .infoSlide .infoImg img.factryImg {
+    height: 300px;
+    position: absolute;
+    z-index: 10;
+  }
+  .infoSlide .infoImg img.unionImg {
+    height: 400px;
+    position: absolute;
+    z-index: 10;
+    position: relative;
+    z-index: 0;
+    margin-right: 120px;
+  }
+  .nameCat {
+    font-size: 20px;
+    margin-bottom: 20;
+  }
+  .lang {
+    margin-top: 50px;
+    margin-left: 100px;
+    gap: 17px;
+  }
+  .lang p {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 129.52%;
+    text-align: center;
+    letter-spacing: 0.025em;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  .lang p.active {
+    color: #000000;
+  }
+  .swiper {
+    width: 800px;
+  }
+  .swiper .card-content {
+    margin-right: 50;
+    width: 250px;
+  }
+  .swiper .card-content img {
+    width: 250px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .firstSlide .header {
+    display: block;
+    padding-left: 80px;
+    padding-right: 40px;
+  }
+  .firstSlide .header .logoBlock {
+    margin-right: 50px;
+  }
+  .firstSlide .header .logoBlock .logo {
+    margin-right: 7px;
+    width: 40px;
+    height: 35px;
+  }
+  .firstSlide .header .logoBlock .textLogo {
+    font-size: 16px;
+  }
+  .firstSlide .menu .menuBlock li a {
+    font-size: 10px;
+  }
+  .infoSlide {
+    display: block;
+  }
+  .infoSlide .infoText {
+    margin-top: 80px;
+    margin-right: 100px;
+    text-align: center;
+  }
+  .infoSlide .infoText .nameCompany {
+    font-size: 20px;
+  }
+  .infoSlide .infoText .descInfo {
+    font-size: 16px;
+  }
+  .infoSlide .infoImg {
+    display: flex;
+    margin-left: 180px;
+    margin-top: 50px;
+  }
+  .infoSlide .infoImg img.factryImg {
+    height: 300px;
+    position: absolute;
+    z-index: 10;
+  }
+  .infoSlide .infoImg img.unionImg {
+    height: 400px;
+    position: absolute;
+    z-index: 10;
+    position: relative;
+    z-index: 0;
+    margin-right: 120px;
+  }
+  .lang {
+    margin-top: 50px;
+    margin-left: 70px;
+    gap: 17px;
+  }
+  .lang p {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 129.52%;
+    text-align: center;
+    letter-spacing: 0.025em;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  .lang p.active {
+    color: #000000;
+  }
+  .nameCat {
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .firstSlide .header {
+    display: block;
+    padding-left: 50px;
+    padding-right: 40px;
+  }
+  .firstSlide .header .logoBlock {
+    margin-right: 50px;
+  }
+  .firstSlide .header .logoBlock .logo {
+    margin-right: 7px;
+    width: 40px;
+    height: 35px;
+  }
+  .firstSlide .header .logoBlock .textLogo {
+    font-size: 16px;
+  }
+  .firstSlide .menu .menuBlock li a {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 480px) {
+  body {
+    margin: 0px;
+    padding: 0px;
+  }
+  .firstSlide .header {
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-right: 0px;
+  }
+  .firstSlide .header .logoBlock {
+    margin-left: -177px;
+  }
+  .firstSlide .header .logoBlock .logo {
+    margin-right: 7px;
+  }
+  .firstSlide .header .logoBlock .textLogo {
+    font-size: 16px;
+  }
+  .firstSlide .menu {
+    margin-right: -17px;
+  }
+  .firstSlide .menu .menuBlock {
+    margin-left: 180px;
+  }
+  .firstSlide .menu .menuBlock li a {
+    font-size: 10px;
+  }
+  .threeSlide .delivery {
+    display: block;
+    text-align: center;
+    margin-bottom: 74px;
+    text-align: start;
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    margin-right: 0px;
+  }
+  .threeSlide .delivery .mainHowItem {
+    margin-top: 70px;
+    margin-left: 50px;
+    margin-right: 80px;
+    text-align: start;
+  }
+  .threeSlide .delivery .mainHowItem p {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 129.52%;
+    text-align: center;
+    letter-spacing: 0.025em;
+    text-transform: uppercase;
+    color: #219653;
+    margin-bottom: 100px;
+  }
+  .threeSlide .delivery .descHowItem p {
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 50px;
+    margin-right: 82px;
+    -webkit-margin-after: auto;
+            margin-block-end: auto;
+  }
+  .fiveSlide {
+    display: block;
+  }
+  .fiveSlide .nameCat {
+    margin-bottom: 50px;
+  }
+  .fiveSlide .map {
+    margin: 0px;
+    padding: 0px;
+  }
+  .fiveSlide .map iframe {
+    width: 400px;
+    height: 335px;
+  }
+  .fiveSlide .contact-info .main-items {
+    font-size: 16px;
+    line-height: 129.52%;
+    letter-spacing: 0.025em;
+    text-transform: uppercase;
+    color: #219653;
+    margin-left: 20px;
+    margin-right: 60px;
+    margin-top: 20px;
+  }
+  .fiveSlide .contact-info .desc-items {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 129.52%;
+    letter-spacing: 0.025em;
+    text-transform: uppercase;
+    color: #000000;
+    margin-top: 27px;
+  }
+  .fiveSlide .contact-info .adresCont {
+    display: flex;
+  }
+  .fiveSlide .contact-info .emailCont {
+    display: flex;
+  }
+  .fiveSlide .contact-info .emailCont .desc-items {
+    margin-left: 19px;
+  }
+  .fiveSlide .contact-info .telCont {
+    display: flex;
+  }
+  .fiveSlide .contact-info .telCont .desc-items {
+    margin-left: -32px;
+  }
+  .fourSlide .nameCat {
+    margin-bottom: 23px;
+  }
+  .fourSlide form {
+    display: block;
+    width: 400px;
+    height: 704px;
+    background-color: rgb(255, 255, 255);
+    background: #FFFFFF;
+    box-shadow: 0px 5px 43px -12px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 87px;
+    margin-bottom: 50px;
+  }
+  .fourSlide form input {
+    margin-bottom: 58px;
+    width: 219px;
+    height: 21px;
+    border: 3px solid #6FCF97;
+    border-radius: 20px;
+    color: #000000;
+    padding: 10px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 129.52%;
+    text-align: start;
+    letter-spacing: 0.025em;
+    text-transform: uppercase;
+    margin-left: 80px;
+    color: #020202;
+  }
+  .fourSlide form input::-moz-placeholder {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 129.52%;
+    text-align: start;
+    letter-spacing: 0.025em;
+    text-transform: uppercase;
+    color: #535353;
+  }
+  .fourSlide form input:-ms-input-placeholder {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 129.52%;
+    text-align: start;
+    letter-spacing: 0.025em;
+    text-transform: uppercase;
+    color: #535353;
+  }
+  .fourSlide form input::placeholder {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 129.52%;
+    text-align: start;
+    letter-spacing: 0.025em;
+    text-transform: uppercase;
+    color: #535353;
+  }
+  .fourSlide form button {
+    background: #6FCF97;
+    border: 1px solid #6FCF97;
+    border-radius: 15px;
+    width: 297px;
+    height: 64px;
+    border: 0px;
+    text-align: center;
+    margin-left: 57px;
+  }
+  .fourSlide form button p {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 129.52%;
+    text-align: center;
+    letter-spacing: 0.025em;
+    text-transform: uppercase;
+    color: #0B0A0A;
+  }
+  .swiper {
+    width: 400px;
+  }
+  .swiper .card-content {
+    margin-left: 70px;
+    width: 200px;
+  }
+  .swiper .card-content img {
+    width: 200px;
+  }
+  .infoSlide {
+    display: block;
+    margin-top: 0px;
+  }
+  .infoSlide .infoText .nameCompany {
+    font-size: 24px;
+    margin-left: -3px;
+  }
+  .infoSlide .infoText .descInfo {
+    font-size: 18px;
+  }
+  .infoSlide .infoText img {
+    margin-left: -85px;
+  }
+  .infoSlide .infoImg {
+    display: flex;
+    margin-left: -89px;
+  }
+  .infoSlide .infoImg img.factryImg {
+    position: absolute;
+    z-index: 10;
+  }
+  .infoSlide .infoImg img.unionImg {
+    position: relative;
+    z-index: 0;
+    margin-right: 120px;
+    width: 325px;
+    opacity: 0;
+  }
+  .swiper-button-next {
+    opacity: 0;
+  }
+  .swiper-button-prev {
+    opacity: 0;
+  }
+  .swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled {
+    opacity: 0;
+  }
+  .nameCat {
+    margin-bottom: 25px;
+  }
+  .lang {
+    position: relative;
+    z-index: 10;
+    margin-top: -136px;
+    right: 201px;
+  }
+  .lang p {
+    font-size: 16px;
+  }
+  .whyMe {
+    margin-bottom: 110px;
+  }
+  .whyMe .nameCat {
+    margin-bottom: -13px;
+  }
+  .whyMe .block {
+    display: block;
+  }
+  .whyMe .indoObrImg {
+    margin-left: 74px;
+    margin-bottom: 50px;
+  }
+  .whyMe .indoObrImg img {
+    width: 250px;
+  }
+  .whyMe .indoObr {
+    margin-left: 0px;
+  }
+  .whyMe .why {
+    margin-bottom: 30px;
+  }
+  .whyMe .why .main {
+    font-size: 16px;
+  }
+  .whyMe .why .desc {
+    font-size: 10px;
+  }
+}/*# sourceMappingURL=adaptive.css.map */
